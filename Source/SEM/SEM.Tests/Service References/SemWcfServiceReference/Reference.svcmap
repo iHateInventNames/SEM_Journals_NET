@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="faf9122f-39d1-4ed5-95b2-e79de48fb19a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52404/ServiceJournalsAccess.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceJournalsAccess.xsd" MetadataType="Schema" ID="aff4774f-1b17-4167-9d37-33b19bf39f34" SourceId="1" SourceUrl="http://localhost:52404/ServiceJournalsAccess.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceJournalsAccess.disco" MetadataType="Disco" ID="10643e0d-bb27-4d0b-bae8-e6593f741e67" SourceId="1" SourceUrl="http://localhost:52404/ServiceJournalsAccess.svc?disco" />
+    <MetadataFile FileName="ServiceJournalsAccess.wsdl" MetadataType="Wsdl" ID="b51efd07-3cb9-438e-9740-dbce14dd9c62" SourceId="1" SourceUrl="http://localhost:52404/ServiceJournalsAccess.svc?wsdl" />
+    <MetadataFile FileName="ServiceJournalsAccess1.xsd" MetadataType="Schema" ID="e9ec1ed2-2f6b-4088-b0ee-d0e568f2052e" SourceId="1" SourceUrl="http://localhost:52404/ServiceJournalsAccess.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiceJournalsAccess2.xsd" MetadataType="Schema" ID="6998401f-a8ef-435a-956f-0ebcd4872a05" SourceId="1" SourceUrl="http://localhost:52404/ServiceJournalsAccess.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
